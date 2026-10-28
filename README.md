@@ -2,6 +2,10 @@
 
 A ComfyUI model patch for **MiniMax H3**, designed to reduce video generation failures and artifacts while the video is being generated. It is not a general quality enhancer or a repair tool for finished videos. The goal is to avoid faulty results as much as possible; it cannot prevent every error.
 
+> [!WARNING]
+> **Experimental**
+> H3 Steady Lab has been tested, but not across all possible models, settings, and scenarios. Results may vary. Start with the recommended values and compare with the node disabled using the same seed.
+
 ## Installation
 
 Place this repository in `ComfyUI/custom_nodes/h3_steady_lab/` and restart ComfyUI. Keep `__init__.py` and `profil_lab.safetensors` together in that folder.
