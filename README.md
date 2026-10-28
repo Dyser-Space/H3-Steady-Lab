@@ -26,8 +26,8 @@ For an advanced sampling workflow, connect its MODEL output to both **BasicGuide
 | Step 0 | 0.0 | 0.10–0.20 |
 | Step 1 | 1.0 | 1.0 |
 | Step 2 | 1.0 | 1.0 |
-| Start / End block | 42 / 48 | 42 / 48 |
-| Threshold | 90 % (Standard) | 90 % (Standard) |
+| Start / End block | 38 / 48 | 42 / 48 |
+| Threshold | 95 % | 100 % (strict) |
 
 These are starting points, not guaranteed best settings. Step 0–2 are strength multipliers for the first three sampling steps, counted from zero. Higher strength is not automatically better.
 
